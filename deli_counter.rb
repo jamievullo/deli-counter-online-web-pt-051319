@@ -4,7 +4,7 @@ katz_deli = []
 
 def line(katz-deli)
   katz_deli.each do |name|
-    if(katz_deli.isEmpty?)
+    if(katz_deli.empty?)
       puts "The line is currently empty"
     else
       puts "#{name}"
