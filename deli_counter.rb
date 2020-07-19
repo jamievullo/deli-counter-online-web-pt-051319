@@ -10,7 +10,6 @@ def line(katz_deli)
         i = 1
         puts "#{i} #{name}"
         i++
-      end
     end
 end
 
