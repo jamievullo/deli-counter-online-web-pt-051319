@@ -9,10 +9,12 @@ def line(katz_deli)
         i = 1
         lineString = "The name is currently: "
       katz_deli.each do |name|
-        lineString + "#{i}. #{name}"
+        lineString += "#{i}. #{name}"
         i += 1
       end
+      puts lineString
     end
+    
   end
 
 def take_a_number(katz_deli, name)
