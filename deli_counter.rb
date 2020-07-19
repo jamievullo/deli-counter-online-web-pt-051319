@@ -6,10 +6,12 @@ def line(katz_deli)
     if(katz_deli.empty?)
       puts "The line is currently empty."
     else
-      katz_deli.each do |name|
         i = 1
+      katz_deli.each do |name|
         puts "#{i} #{name}"
-        i++
+        i += 1
+      end
+    end
     end
 end
 
